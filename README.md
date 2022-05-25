@@ -12,25 +12,27 @@ This is my first project in the Coding Dojo Data Science Fundamentals and Machin
 # Predict Item Sales to Drive Profit
 ## Machine Learning Model Transforming Item Data into Sales
 
-**Author**: 
+**Author**: Brian Lafferty
 
 ### Business problem:
 
-Here is where you state the business problem you were trying to solve
+Transfering raw descriptive data about a product and turning it into a prediction model for item sales.
 
 
-### Data:
-Data can include source and high-level description (e.g. # obs)
+### Data
+Over 8500 item oberavtions from many different store outlets. Data included information about the product (weight, fat content, category, etc.) and sales establishment infomation (size, type, etc.).
 
 
 ## Methods
-- Data preparation steps with explanation and justification for choices
-- 
+- Data cleaned and prepared using imputing and category standaraization strategies.
+- Visualization of data to explore and find underlying trends.
+- Analyized data using multiple machine learning models to optimize results.
 
 ## Model
+The Machine Learning Model selected for this project was a Regression Tree. This model preformed best with the data when compared with a Linear Regression model. The Regreesion Tree had a R^2 value above 0.996 when working with the test data.
 
 ## Results
-
+- 
 ### Here are examples of how to embed images from your sub-folder
 
 
