@@ -29,7 +29,7 @@ Over 8500 item oberavtions from many different store outlets. Data included info
 - Analyized data using multiple machine learning models to optimize results.
 
 ## Model
-The Machine Learning Model selected for this project was a Regression Tree. This model preformed best with the data when compared with a Linear Regression model. The Regreesion Tree had a R^2 value above 0.996 when working with the test data.
+The Machine Learning Model selected for this project was a Regression Tree. This model preformed best with the data when compared with a Linear Regression model. After tuning hyperparameters of The Regreesion Tree, it produced a R^2 value above 0.996 on the test data.
 
 ## Results
 
@@ -50,16 +50,17 @@ The Machine Learning Model selected for this project was a Regression Tree. This
 > - 50% of the values had predictions less than $21 from the actual value.
 
 ## Recommendations:
-
+- This Regression Tree Model should be used to forecast sales for potential new products.
+- Breakfast category should be expanded to increase market share.
+- Location of stores matter. Future stores should be in Outlet_Location_Type of Tier 2 or above.
 
 
 
 ## Limitations & Next Steps
-
-More of your own text here
+The Regression Tree Model did have 7 predictions that were beyond $500 with a maximum of $1807 away from actual results. As I continue to learn more about Machine Learning, I will conintue to improve this analysis and strive to make the results even better.
 
 
 ### For further information
 
 
-For any additional questions, please contact **email**
+For any additional questions, please contact me on LinkedIn. 
