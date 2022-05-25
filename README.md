@@ -52,5 +52,4 @@ The Regression Tree Model did have 7 predictions that were beyond $500 with a ma
 ### For further information
 
 
-For any additional questions, please contact me on [LinkedIn](htpps://www.linkedin.com/in/brian-lafferty
-). 
+For any additional questions, please contact me on [LinkedIn](https://www.linkedin.com/in/brian-lafferty). 
