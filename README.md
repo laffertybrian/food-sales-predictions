@@ -35,7 +35,11 @@ Data can include source and high-level description (e.g. # obs)
 
 
 #### Visual 1 Title
-![sample image](project1_sample_image.png)
+![sample image](fig1.png)
+
+> Sentence about visualization.
+
+![sample image](fig2.png)
 
 > Sentence about visualization.
 #### Visual 2 Title
