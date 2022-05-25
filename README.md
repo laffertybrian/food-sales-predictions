@@ -32,23 +32,26 @@ Over 8500 item oberavtions from many different store outlets. Data included info
 The Machine Learning Model selected for this project was a Regression Tree. This model preformed best with the data when compared with a Linear Regression model. The Regreesion Tree had a R^2 value above 0.996 when working with the test data.
 
 ## Results
-- 
-### Here are examples of how to embed images from your sub-folder
 
-
-#### Visual 1 Title
 ![sample image](fig1.png)
 
-> Sentence about visualization.
+> Identified categories with opportunity for growth and product segmentation.
 
+#### Key Heatmap Correlations
 ![sample image](fig2.png)
 
-> Sentence about visualization.
-#### Visual 2 Title
+> Using provided data I created an additional column of Unit_Sold. This information improves data analysis and model preformance.
+
+#### Regression Tree Metrics
+
+> - The Mean Squared Error is 45.38. This shows that the models average error is $45.38 per item prediction. The average value of Item_Outlet_Sales is $2181.29, so the error represents approximately 2% of the total sales.
+> - The model can predict the Item_Outlet_Sales target within $100 dollars 88.64% of the time.
+> - The model had 7 predictions that were over $500 off of the actual value. That represents approximately .5% of the predictions.
+> - 50% of the values had predictions less than $21 from the actual value.
 
 ## Recommendations:
 
-More of your own text here
+
 
 
 ## Limitations & Next Steps
