@@ -9,8 +9,8 @@ This is my first project in the Coding Dojo Data Science Fundamentals and Machin
 - Part 4: Explanitory visualizations
 - Part 5: Prepare data for machine learning
 
-# Title that recommends an action
-## Subtitle describing the analysis 
+# Predict Item Sales to Drive Profit
+## Machine Learning Model Transforming Item Data into Sales
 
 **Author**: 
 
