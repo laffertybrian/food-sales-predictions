@@ -5,7 +5,7 @@
 
 ### Business problem:
 
-Transfering raw descriptive data about a product and turning it into a prediction model for item sales
+Can raw descriptive product data be turned into a predictive model for item sales with Machine Learning?
 
 
 ### Data
