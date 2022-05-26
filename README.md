@@ -5,7 +5,7 @@
 
 ### Business problem:
 
-Transfering raw descriptive data about a product and turning it into a prediction model for item sales.
+Transfering raw descriptive data about a product and turning it into a prediction model for item sales
 
 
 ### Data
@@ -13,12 +13,12 @@ Over 8500 item oberavtions from many different store outlets. Data included info
 
 
 ## Methods
-- Data cleaned and prepared using imputing and category standaraization strategies.
-- Visualization of data to explore and find underlying trends.
-- Analyized data using multiple machine learning models to optimize results.
+- Data cleaned and prepared using imputing and category standaraization strategies
+- Visualization of data to explore and find underlying trends
+- Analyized data using multiple machine learning models to optimize results
 
 ## Model
-The Machine Learning Model selected for this project was a Regression Tree. This model preformed best with the data when compared with a Linear Regression model. After tuning hyperparameters of The Regreesion Tree, it produced a R^2 value above 0.996 on the test data.
+The machine learning model selected for this project was a regression tree. This model preformed best with the data when compared with a linear regression model. After tuning hyperparameters of the regreesion tree, it produced a R^2 value above 0.996 on the test data.
 
 ## Results
 
@@ -29,7 +29,7 @@ The Machine Learning Model selected for this project was a Regression Tree. This
 #### Key Heatmap Correlations
 ![sample image](fig2.png)
 
-> Using provided data I created an additional column of Unit_Sold. This information improves data analysis and model preformance.
+> Using provided data I created an additional column of Unit_Sold. This information improves data analysis and model performance.
 
 #### Regression Tree Metrics
 
@@ -39,14 +39,14 @@ The Machine Learning Model selected for this project was a Regression Tree. This
 > - 50% of the values had predictions less than $21 from the actual value.
 
 ## Recommendations:
-- This Regression Tree Model should be used to forecast sales for potential new products.
+- This regression tree model should be used to forecast sales for potential new products.
 - Breakfast category should be expanded to increase market share.
 - Location of stores matter. Future stores should be in Outlet_Location_Type of Tier 2 or above.
 
 
 
 ## Limitations & Next Steps
-The Regression Tree Model did have 7 predictions that were beyond $500 with a maximum of $1807 away from actual results. As I continue to learn more about Machine Learning, I will conintue to improve this analysis and strive to make the results even better.
+The regression tree model did have 7 predictions that were beyond $500 with a maximum of $1807 away from actual results. As I continue to learn more about Machine Learning, I will conintue to improve this analysis and strive to make the results even better.
 
 
 ### For further information
