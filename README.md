@@ -26,17 +26,19 @@ The machine learning model selected for this project was a regression tree. This
 
 > Identified categories with opportunity for growth and product segmentation.
 
-#### Key Heatmap Correlations
+#### Histogram of the Prediction Difference
 ![sample image](fig2.png)
 
-> Using provided data I created an additional column of Unit_Sold. This information improves data analysis and model performance.
+> Visualizing the prediction differences in this way allows for clear understanding of the models performance.
 
 #### Regression Tree Metrics
 
-> - The Mean Squared Error is 45.38. This shows that the models average error is $45.38 per item prediction. The average value of Item_Outlet_Sales is $2181.29, so the error represents approximately 2% of the total sales.
-> - The model can predict the Item_Outlet_Sales target within $100 dollars 88.64% of the time.
-> - The model had 7 predictions that were over $500 off of the actual value. That represents approximately .5% of the predictions.
-> - 50% of the values had predictions less than $21 from the actual value.
+>I do not recommend using the Decision Tree Model for predicting the Item_Outlet_Sales for these reasons:
+
+>-   The MSE is 738.31. This shows that the models average error is 738.31 dollars per item prediction. The average value of Item_Outlet_Sales is 2181.29 dollars, so the error represents approximately 33% of the total sales.
+>-   The model can predict the Item_Outlet_Sales target within 100 dollars 14.36% of the time.
+>-   The model had 555 predictions that were over 1000 dollars off of the actual value. That represents approximately 26% of the predictions.
+>-   49% of the values had predictions over 500 dollars from the actual value.
 
 ## Recommendations:
 - This regression tree model should be used to forecast sales for potential new products.
