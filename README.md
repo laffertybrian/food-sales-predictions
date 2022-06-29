@@ -13,9 +13,9 @@ Over 8500 item oberavtions from many different store outlets. Data included info
 
 
 ## Methods
-- Data cleaned and prepared using imputing and category standaraization strategies
+- Data cleaned and prepared using imputing and category standardization strategies
 - Visualization of data to explore and find underlying trends
-- Analyized data using multiple machine learning models to optimize results
+- Analyzed data using multiple machine learning models to optimize results
 
 ## Model
 The machine learning model selected for this project was a regression tree. This model preformed best with the data when compared with a linear regression model. After tuning hyperparameters of the regreesion tree, it produced a R^2 value of 0.5947 on the test data.
